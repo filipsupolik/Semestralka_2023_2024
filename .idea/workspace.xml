@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16258580-2158-4f24-8577-4a0886b8e5f5" name="Changes" comment="" />
+    <list default="true" id="16258580-2158-4f24-8577-4a0886b8e5f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HernyPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prostredie/Miestnost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prostredie/Miestnost_Prazdna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prostredie/Miestnost_S_Kartou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prostredie/Miestnost_S_Nepriatelom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zive_bytosti/Hrac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zive_bytosti/Nepriatel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OpYRp8kxLCvcarLfventKof2SD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -17,9 +41,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,8 +58,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682258986195</updated>
+      <workItem from="1682258988879" duration="2236000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
