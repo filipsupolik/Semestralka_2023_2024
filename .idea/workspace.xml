@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16258580-2158-4f24-8577-4a0886b8e5f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HernyPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prostredie/Miestnost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prostredie/Miestnost_Prazdna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prostredie/Miestnost_S_Kartou.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prostredie/Miestnost_S_Nepriatelom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zive_bytosti/Hrac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zive_bytosti/Nepriatel.java" afterDir="false" />
+    <list default="true" id="16258580-2158-4f24-8577-4a0886b8e5f5" name="Changes" comment="First attempt to make classes">
+      <change afterPath="$PROJECT_DIR$/src/Policko.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/citac_zo_suboru/citac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sbge.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zive_bytosti/ZiveBytosti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semestralka_2023_2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Semestralka_2023_2024.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HernyPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HernyPlan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Karta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/predmety/Karta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prostredie/Miestnost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prostredie/Miestnost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prostredie/Miestnost_Prazdna.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prostredie/Miestnost_S_Kartou.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prostredie/Miestnost_S_Nepriatelom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zive_bytosti/Hrac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zive_bytosti/Hrac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zive_bytosti/Nepriatel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zive_bytosti/Nepriatel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +25,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,12 +52,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\FILIP\Documents\Informatika\Inf1\kod\Semestralky\Semestralka_2023_2024\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,8 +74,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682258986195</updated>
-      <workItem from="1682258988879" duration="2236000" />
+      <workItem from="1682258988879" duration="2405000" />
+      <workItem from="1682845585128" duration="4913000" />
     </task>
+    <task id="LOCAL-00001" summary="First attempt to make classes">
+      <created>1682261385785</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682261385785</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +100,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First attempt to make classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="First attempt to make classes" />
   </component>
 </project>
