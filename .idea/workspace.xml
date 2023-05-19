@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16258580-2158-4f24-8577-4a0886b8e5f5" name="Changes" comment="First attempt to make classes">
-      <change afterPath="$PROJECT_DIR$/src/Policko.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/citac_zo_suboru/citac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sbge.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zive_bytosti/ZiveBytosti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NavrhHernejLogiky.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UML_pre_semestralnu_pracu_INF1_2.frip2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semestralka_2023_2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Semestralka_2023_2024.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HernyPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HernyPlan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Karta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/predmety/Karta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prostredie/Miestnost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prostredie/Miestnost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prostredie/Miestnost_Prazdna.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prostredie/Miestnost_S_Kartou.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prostredie/Miestnost_S_Nepriatelom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zive_bytosti/Hrac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zive_bytosti/Hrac.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zive_bytosti/Nepriatel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zive_bytosti/Nepriatel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HernyPlan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prostredie/Miestnost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zive_bytosti/Hrac.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zive_bytosti/Nepriatel.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +24,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
   </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
@@ -47,17 +52,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
