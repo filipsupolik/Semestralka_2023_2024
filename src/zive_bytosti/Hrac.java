@@ -1,4 +1,4 @@
 package zive_bytosti;
 
-public class Hrac {
+public class Hrac extends ZiveBytosti {
 }
