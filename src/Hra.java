@@ -1,7 +1,10 @@
+import gui.forms.Star_Wars_Form;
+
 public class Hra {
-     GameField hernePole;
+
+    private Star_Wars_Form starWars;
 
     public Hra() {
-        this.hernePole = new GameField(9);
+        this.starWars = new Star_Wars_Form();
     }
 }

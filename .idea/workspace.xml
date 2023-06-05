@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16258580-2158-4f24-8577-4a0886b8e5f5" name="Changes" comment="Starting same app with different implementation">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/shapesGE_SK_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hra.java" afterDir="false" />
+    <list default="true" id="16258580-2158-4f24-8577-4a0886b8e5f5" name="Changes" comment="Create game field and add picture to start">
+      <change afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/forms/Star_Wars_Form.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/forms/Star_Wars_Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/forms/StarterScreen.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/forms/StarterScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/weapon/Weapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semestralka_2023_2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Semestralka_2023_2024.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Policko.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Policko.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/citac_zo_suboru/citac.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/predmety/Karta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zive_bytosti/ZiveBytosti.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML_pre_semestralnu_pracu_INF1_2.frip2" beforeDir="false" afterPath="$PROJECT_DIR$/UML_pre_semestralnu_pracu_INF1_2.frip2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Policko.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sbge.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/sbge.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +53,20 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OpYRp8kxLCvcarLfventKof2SD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "347",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
     "last_opened_file_path": "C:/Users/FILIP/Downloads/shapesGE-SK-1.2.0.jar",
@@ -70,12 +77,29 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="entity" />
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\FILIP\IdeaProjects\Semestralka_2023_2024\src\gui\forms" />
+      <recent name="C:\Users\FILIP\IdeaProjects\Semestralka_2023_2024\assets" />
       <recent name="C:\Users\FILIP\IdeaProjects\Semestralka_2023_2024\src" />
       <recent name="C:\Users\FILIP\Documents\Informatika\Inf1\kod\Semestralky\Semestralka_2023_2024\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Semestralka_2023_2024" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,7 +111,10 @@
       <updated>1682258986195</updated>
       <workItem from="1682258988879" duration="2405000" />
       <workItem from="1682845585128" duration="4913000" />
-      <workItem from="1685006486079" duration="8429000" />
+      <workItem from="1685006486079" duration="8528000" />
+      <workItem from="1685812223213" duration="1370000" />
+      <workItem from="1685870270098" duration="2058000" />
+      <workItem from="1685952708153" duration="5779000" />
     </task>
     <task id="LOCAL-00001" summary="First attempt to make classes">
       <created>1682261385785</created>
@@ -103,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684533928584</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create game field and add picture to start">
+      <created>1685016421732</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685016421732</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,8 +155,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First attempt to make classes" />
     <MESSAGE value="Starting same app with different implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting same app with different implementation" />
+    <MESSAGE value="Create game field and add picture to start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create game field and add picture to start" />
   </component>
 </project>
