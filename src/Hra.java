@@ -1,10 +1,16 @@
-import gui.forms.Star_Wars_Form;
+import entity.Entity;
+import entity.Mage;
+import entity.Player_Classes;
 
 public class Hra {
-
-    private Star_Wars_Form starWars;
+    private Mage mage;
 
     public Hra() {
-        this.starWars = new Star_Wars_Form();
+        this.mage = new Mage(100, 100, 100, 100, "oheň", Player_Classes.MAGE);
+        this.testMetoda();
+    }
+
+    public void testMetoda() {
+        System.out.println("Atck " + mage.getAtck() + " Def " + mage.getDef() + " Hlth " + mage.getHlth() + " Mana " + mage.getMana() + " Druh magie " + mage.getDruhMagie());
     }
 }

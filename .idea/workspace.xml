@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="16258580-2158-4f24-8577-4a0886b8e5f5" name="Changes" comment="Create game field and add picture to start">
-      <change afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/forms/Star_Wars_Form.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/forms/Star_Wars_Form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/forms/StarterScreen.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/forms/StarterScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/weapon/Weapon.java" afterDir="false" />
+    <list default="true" id="16258580-2158-4f24-8577-4a0886b8e5f5" name="Changes" comment="Started from scratch, created starter screen with GUI form and started working on Entities and weapons">
+      <change afterPath="$PROJECT_DIR$/src/entity/Mage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Player_Classes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML_pre_semestralnu_pracu_INF1_2.frip2" beforeDir="false" afterPath="$PROJECT_DIR$/UML_pre_semestralnu_pracu_INF1_2.frip2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameField.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Policko.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sbge.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/sbge.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/forms/Star_Wars_Form.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/forms/Star_Wars_Form.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/forms/StarterScreen.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/forms/StarterScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weapon/Weapon.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,24 +61,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "347",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/FILIP/Downloads/shapesGE-SK-1.2.0.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH&quot;: &quot;347&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/FILIP/Downloads/shapesGE-SK-1.2.0.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="entity" />
+      <recent name="weapon" />
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -114,7 +120,11 @@
       <workItem from="1685006486079" duration="8528000" />
       <workItem from="1685812223213" duration="1370000" />
       <workItem from="1685870270098" duration="2058000" />
-      <workItem from="1685952708153" duration="5779000" />
+      <workItem from="1685952708153" duration="6755000" />
+      <workItem from="1686043542805" duration="4745000" />
+      <workItem from="1688286669356" duration="2939000" />
+      <workItem from="1689107954829" duration="2373000" />
+      <workItem from="1689193696271" duration="4122000" />
     </task>
     <task id="LOCAL-00001" summary="First attempt to make classes">
       <created>1682261385785</created>
@@ -137,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685016421732</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Started from scratch, created starter screen with GUI form and started working on Entities and weapons">
+      <created>1685959641945</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685959641945</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +176,7 @@
     <MESSAGE value="First attempt to make classes" />
     <MESSAGE value="Starting same app with different implementation" />
     <MESSAGE value="Create game field and add picture to start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create game field and add picture to start" />
+    <MESSAGE value="Started from scratch, created starter screen with GUI form and started working on Entities and weapons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started from scratch, created starter screen with GUI form and started working on Entities and weapons" />
   </component>
 </project>
